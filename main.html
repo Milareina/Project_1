@@ -1,13 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/main/main.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
     
-</body>
+    <link rel="stylesheet" href="./styles/main/main.css">
+    <link rel="stylesheet" href="./styles/gallery/footer/footer.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-top">
+        <div class="header-top__inner">
+          <a href="#" class="logo">
+            <img src="./images/main/header/logo_main.png" alt="logo" />
+          </a>
+          <nav class="menu">
+            <a class="menu__link" href="#!">MAIN</a>
+            <a class="menu__link" href="#!">GALLERY</a>
+            <a class="menu__link" href="#!">PROJECTS</a>
+            <a class="menu__link" href="#!">SERTIFICATION</a>
+            <a class="menu__link" href="#!">CONTACTS</a>
+          </nav>
+        </div>
+      </div>
+      <div class="header-content">
+        <div class="header__left">
+          <div class="header__title">PROJECT</div>
+          <div class="header__subtitle">Lorum</div>
+          <div class="header_button"></div>
+          <button class="class">&larr;</button>
+          <button class="class">&rarr;</button>
+        </div>
+        <div class="header__right">
+          <img width="770px" src="./images/main/lorum-img/lorum_product.png" alt="img" />
+        </div>
+      </div>
+      <div class="project-lorum">
+        <div class="project__left">
+          <div class="lorum-1">
+            <img width="275px" src="./images/main/lorum-img/lorum1.png" alt="" />
+          </div>
+          <div class="lorum-2">
+            <img width="275px" src="./images/main/lorum-img/lorum3.png" alt="" />
+          </div>
+          <div class="lorum-3">
+            <img width="275px" src="./images/main/lorum-img/lorum2.png" alt="" />
+          </div>
+        </div>
+        <div class="project__right">
+          <div class="project__title">About</div>
+          <div class="project__subtitle">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </div>
+          <button class="button-project">READ MORE &rarr;</button>
+        </div>
+      </div>
+      <div class="main__content">
+        <h1>Main Focus/Mission Statement</h1>
+        <div class="main__content-text">
+          <div class="main__blok1">
+            <div class="main__blok-text1">1</div>
+            <div class="main__blok-text2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              efficitur, lectus et facilisis placerat.
+            </div>
+          </div>
+          <div class="main__blok2">
+            <div class="main__blok-text3">2</div>
+            <div class="main__blok-text4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              efficitur, lectus et facilisis placerat, magna mauris porttitor
+              tortor, a auctor est felis ut nisl.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="contact-us">
+      <div class="contact-us__container container">
+          <h2 class="contact-us__title title">Contact Us</h2>
+          <div class="contact-us__flex-container">
+              <div class="contact-us__flex-inputs">
+                  <div><input class="text-field" id="name" type="text" placeholder="Name"></div>
+                  <div><input class="text-field" id="tel" type="tel" placeholder="Phone Number"
+                      pattern="[7-8]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}[0-9]{2}"></div>
+                  <div><input class="text-field" id="email" type="email" placeholder="E-mail"></div>
+                  <div><input class="text-field" id="iteres" type="text" placeholder="Interested In"></div>
+                  <div class="message"><textarea id="message" maxlength="240" cols="10" rows="7"class="text-field" placeholder="Message"></textarea></div>
+              </div>
+              <div class="contact-us__flex-item">
+                  <img src="./images/main/contact-us/contactus.svg" alt="contact-us">
+              </div>
+          </div>
+          <div class="contact-us__button">
+              <a href="#" class="button">
+                  <span class="our-projects__button__text text-link"
+                      >Send Email</span
+                  >
+                  <img
+                      class="our-projects__button__arrow"
+                      src="./images/our-projects/arrow.svg"
+                      alt="Arrow"
+                  />
+              </a>
+          </div>
+      </div>
+  </section>
+  <footer>
+    <div class="footer">
+        <div class="logo_img"><img src="./images/footer_icon.png" alt="dijital project"></div>
+        <div class="nav_footer">
+            <h3>Information</h3>
+            <p>Main</p>
+            <p>Gallery</p>
+            <p>Projects</p>
+            <p>Certifications</p>
+            <p>Contacts</p>
+        </div>
+        <div class="contacts">
+            <h3>Contacts</h3>
+            <p id="adress">
+                <a>&#9875;</a>
+                <a>1234 Sample Street<br/>
+                Austin Texas 78704 </a>
+            </p>
+            <p id="telefon"> 
+                <a>&#9742;</a>
+                <a>Tel: 512.333.2222</a>
+            </p>
+            <p id="email"> 
+                <a>&#9993;</a>
+                <a>Email: sampleemail@gmail.com</a>
+            </p>
+        </div>
+        <div class="social-media">
+            <h3>Social Media</h3>
+            <a><img src="./images/facebook.png" alt="facebook"></a>
+            <a><img src="./images/twitter.png" alt="twitter"></a>
+            <a><img src="./images/Linked In.png" alt="linked"></a>
+            <a><img src="./images/pininterest.png" alt="pininterest"></a>
+        </div>
+        <div class="copy">
+            <a>&copy;2019 All Rights Reserved.</a>
+        </div>
+    </div>    
+    </footer>
+  </body>
 </html>

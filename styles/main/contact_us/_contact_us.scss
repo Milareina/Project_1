@@ -1,0 +1,106 @@
+
+.contact-us__title {
+    margin-bottom: 22px;
+}
+.contact-us__flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    .contact-us__flex-inputs {
+        min-width: 391px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+            .text-field {
+                width: 100%;
+                min-height: 46px;
+                background-color: rgb(243, 243, 243);
+                padding-left: 21px;
+                border: 0;
+            }
+            .message {
+                min-height: 147px;
+                background-color: rgb(243, 243, 243);;
+                }
+            input {outline:none;}
+            textarea {
+                outline:none;
+                margin-top: 14px;
+            }
+        }
+    .contact-us__flex-item {
+        max-width: 749px;
+        max-height: 371px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    }
+.contact-us__button {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 77px;
+}
+//Aдаптив
+
+
+//Стили для планшета и планшета в альбомной ориентации
+@media (min-width: 768px) and (max-width: 1200px) {
+    //Заголовок
+    .contact-us__title{
+        font-size: 6rem;
+    }
+
+    // Отступы
+    .contact-us__container{
+        padding: 1.875rem; 
+    }
+}
+//Большие смартфоны
+@media (min-width: 425px) and (max-width: 767px) {
+    //Заголовок
+    .contact-us__title{
+        font-size: 3rem;
+    }
+
+    // Отступы
+    .contact-us__container{
+        padding: 1rem; 
+    }
+    // Контейнер
+    .contact-us__flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+//Стили для средних смартфонов
+@media screen and (max-width: 424px) {
+    //Заголовок
+    .contact-us__title{
+        font-size: 2rem;
+    }
+
+    // Отступы
+    .contact-us__container{
+        padding: 1rem; 
+    }
+    // Контейнер
+    .contact-us__flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        max-width: 390px;
+        justify-content: center;
+         //Inputs
+    .contact-us__flex-inputs {
+        min-width: 288px;
+        max-width: 343px;
+        display: flex;
+        
+    }
+    }
+}
