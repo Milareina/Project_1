@@ -10,73 +10,75 @@
   padding: 0;
 }
 
-.header {
+.container-header {
   max-width: 1440px;
   height: 102px;
-  margin-left: 100px;
+  width: 100%;
+  margin: 0 auto;
 }
-.header .header-top__inner {
-  padding-bottom: 30px;
-  padding-top: 20px;
+@media (max-width: 1200px) {
+  .container-header {
+    padding: 0 10px;
+  }
+}
+
+header .nav {
+  max-width: 1170px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 73%;
+  margin-top: 25px;
 }
-.header .header-top__inner .logo {
-  margin-left: 100px;
+header .nav__logo {
+  margin-left: 8em;
 }
-.header .header-top__inner .menu {
+@media (max-width: 760px) {
+  header .nav__logo {
+    margin-left: 0;
+  }
+}
+header .nav nav {
   display: flex;
-  gap: 32px;
-}
-.header .header-top__inner .menu a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.635);
-  font-family: "Roboto", sans-serif;
-  position: relative;
-  cursor: pointer;
-  line-height: 1;
-  text-decoration: none;
-  text-decoration: none;
-  padding: 5px 9px;
-  letter-spacing: 2px;
-}
-.header .header-top__inner .menu a:after {
-  display: block;
-  position: absolute;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: black;
-  content: "";
-  transition: width 0.3s ease-out;
-}
-.header .header-top__inner a:hover:after,
-.header .header-top__inner a:focus:after {
+  justify-content: space-between;
+  max-width: 500px;
   width: 100%;
 }
-.header .header-top__inner .menu__link {
-  font-weight: 500;
+header .nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
   font-size: 12px;
-  line-height: 1, 5;
+  line-height: 100%;
+  letter-spacing: 0.2em;
+  color: #333;
+  font-family: "Roboto", sans-serif;
 }
-
-.footer {
-  max-width: 1440px;
-  min-height: 417px;
-  margin: 0 auto;
-  padding-top: 1em;
+@media (max-width: 760px) {
+  header .nav a {
+    display: none;
+  }
+}
+header .burger {
+  margin-bottom: 20px;
+  display: none;
+  margin-top: 2rem;
+}
+@media (max-width: 760px) {
+  header .burger {
+    display: block;
+  }
 }
 
 .container {
   align-items: center;
   max-width: 1170px;
   margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  .container {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
 
 .title {
@@ -143,4 +145,11 @@
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+}
+
+.footer {
+  max-width: 1440px;
+  min-height: 417px;
+  margin: 0 auto;
+  padding-top: 1em;
 }/*# sourceMappingURL=project_1.css.map */
