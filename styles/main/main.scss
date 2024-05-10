@@ -1,6 +1,15 @@
+//Base//
 @import "../template";
 @import "../vars";
-@import "./contact_us/contact_us";
-@import "./header/header";
-@import "./our_projects/our_projects";
-@import "./project_lorum/project_lorum";
+
+//Bloks//
+//Главная main
+@import "./blocks/header";
+@import"./blocks/header_content";
+@import"./blocks/contact_us";
+@import"./blocks/footer";
+@import"./blocks/our_projects";
+
+
+
+

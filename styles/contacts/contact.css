@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
 }
+
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -57,6 +58,7 @@ body {
   color: #fff;
   transition: background-color 0.2s, ease-in;
 }
+
 .button:hover {
   background-color: #605e5e;
 }
@@ -78,6 +80,7 @@ body {
   text-transform: uppercase;
   transition: background-color 0.2s, ease-in;
 }
+
 .button-white:hover {
   background-color: #BDBDBD;
 }
@@ -89,12 +92,12 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
 @media (max-width: 1200px) {
   .container-header {
     padding: 0 10px;
   }
 }
-
 header .nav {
   max-width: 1170px;
   display: flex;
@@ -102,9 +105,11 @@ header .nav {
   align-items: center;
   margin-top: 25px;
 }
+
 header .nav__logo {
   margin-left: 8em;
 }
+
 @media (max-width: 760px) {
   header .nav__logo {
     margin-left: 0;
@@ -116,6 +121,7 @@ header .nav nav {
   max-width: 500px;
   width: 100%;
 }
+
 header .nav a {
   text-decoration: none;
   text-transform: uppercase;
@@ -126,6 +132,7 @@ header .nav a {
   color: #333;
   font-family: "Roboto", sans-serif;
 }
+
 @media (max-width: 760px) {
   header .nav a {
     display: none;
@@ -136,6 +143,7 @@ header .burger {
   display: none;
   margin-top: 2rem;
 }
+
 @media (max-width: 760px) {
   header .burger {
     display: block;
@@ -147,30 +155,38 @@ header .burger {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   -moz-column-gap: 8%;
-       column-gap: 8%;
+  column-gap: 8%;
 }
+
 .contacts__container .contacts__leftside {
   padding-top: 52px;
 }
+
 .contacts__container .contacts__leftside .verse1 {
   padding-top: 34px;
 }
+
 .contacts__container .contacts__leftside .verse2 {
   padding-top: 44px;
 }
+
 .contacts__container .contacts__leftside .verse3 {
   padding-top: 53px;
 }
+
 .contacts__container .contacts__leftside .contacts__button {
   padding-top: 33px;
 }
+
 .contacts__container .contacts__leftside .accent-title {
   color: #333333;
   font-weight: 700;
 }
+
 .contacts__container .contacts__rightside {
   border: 1px solid black;
 }
+
 .contacts__container .contacts__rightside img {
   height: 100%;
   width: 100%;
@@ -209,4 +225,4 @@ header .burger {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
-}
+}/*# sourceMappingURL=contact.css.map */

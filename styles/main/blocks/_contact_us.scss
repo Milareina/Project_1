@@ -1,4 +1,7 @@
 
+.contact-us{
+    margin-bottom: 120px;
+}
 .contact-us__title {
     margin-bottom: 22px;
 }
@@ -41,6 +44,7 @@
 .contact-us__button {
     display: flex;
     justify-content: flex-start;
+    text-align: center;
     margin-top: 77px;
 }
 //Aдаптив
@@ -50,12 +54,15 @@
 @media (min-width: 768px) and (max-width: 1200px) {
     //Заголовок
     .contact-us__title{
-        font-size: 6rem;
+        font-size: 4rem;
     }
 
     // Отступы
     .contact-us__container{
-        padding: 1.875rem; 
+        padding: 30px; 
+        .text-link {
+            font-size: 12px;
+        }
     }
 }
 //Большие смартфоны
@@ -68,6 +75,9 @@
     // Отступы
     .contact-us__container{
         padding: 1rem; 
+        .text-link {
+            font-size: 12px;
+        }
     }
     // Контейнер
     .contact-us__flex-container {
@@ -87,6 +97,9 @@
     // Отступы
     .contact-us__container{
         padding: 1rem; 
+        .text-link {
+            font-size: 12px;
+        }
     }
     // Контейнер
     .contact-us__flex-container {
@@ -102,5 +115,9 @@
         display: flex;
         
     }
+    }
+
+    .contact-us__button{
+        justify-content: center;
     }
 }

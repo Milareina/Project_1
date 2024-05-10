@@ -8,4 +8,77 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+  line-height: 1;
+  color: #BDBDBD;
+}
+
+.text-link {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.text-link__arrow {
+  margin-left: 20px;
+}
+
+.button {
+  display: inline-block;
+  width: 222px;
+  height: 71px;
+  padding-top: 30px;
+  background-color: #2C2C2C;
+  cursor: pointer;
+  line-height: 100%;
+  font-weight: 400;
+  color: #fff;
+  font-size: 12px;
+  transition: background-color 0.2s, ease-in;
+  letter-spacing: 0.2em;
+}
+.button:hover {
+  background-color: #605e5e;
+}
+
+.button-white {
+  display: inline-block;
+  max-width: 222px;
+  height: 71px;
+  padding-top: 30px;
+  padding-left: 39px;
+  padding-right: 39px;
+  background-color: #fff;
+  cursor: pointer;
+  line-height: 100%;
+  font-weight: 400;
+  font-size: clamp(7px, 2vw, 12px);
+  letter-spacing: 0.2em;
+  color: #333333;
+  text-transform: uppercase;
+  transition: background-color 0.2s, ease-in;
+}
+.button-white:hover {
+  background-color: #BDBDBD;
 }/*# sourceMappingURL=certificate.css.map */
