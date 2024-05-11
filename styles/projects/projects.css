@@ -93,7 +93,7 @@ body {
 .our-projects-sample__title {
   max-width: 277px;
   max-height: 128px;
-  margin-bottom: 1.875rem;
+  margin-bottom: 2.5641025641%;
 }
 .our-projects-sample__title--accent {
   font-family: "Roboto", sans-serif;
@@ -104,7 +104,7 @@ body {
 }
 
 .our-projects-sample__design-line__img {
-  margin-bottom: 1.875rem;
+  margin-bottom: 2.5641025641%;
 }
 
 .container-for-gray-line {
@@ -117,7 +117,7 @@ body {
   flex-wrap: wrap;
   gap: 60px;
   padding-top: 30px;
-  margin-bottom: 4.6875rem;
+  margin-bottom: 5.1282051282%;
 }
 
 .our-projects-sample__flex-item {
@@ -130,7 +130,7 @@ body {
 .our-projects-sample__flex-item .flex-item__text {
   display: flex;
   flex-direction: column;
-  padding: 1.875rem;
+  padding: 30px;
 }
 .our-projects-sample__flex-item .flex-item__title {
   font-family: "Roboto", sans-serif;
@@ -142,7 +142,7 @@ body {
 }
 .our-projects-sample__flex-item .flex-item__subtitle {
   max-width: 400px;
-  margin-bottom: 4rem;
+  margin-bottom: 64px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 1rem;
@@ -156,31 +156,31 @@ body {
 .our-projects-sample__pagination .pagination__numbering {
   display: flex;
   align-self: center;
-  gap: 2rem;
+  gap: 32px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 100%;
   color: #BDBDBD;
-  margin-right: 1.8125rem;
+  margin-right: 2.4786324786%;
 }
 .our-projects-sample__pagination .pagination__numbering--active {
   color: #333333;
 }
 .our-projects-sample__pagination .pagination__arrows {
   display: flex;
-  gap: 1.4375rem;
+  gap: 23px;
 }
 .our-projects-sample__pagination .pagination__arrows img {
-  width: 1.5rem;
+  width: 24px;
 }
 .our-projects-sample__pagination .pagination__arrow--inverted {
   display: flex;
   align-items: center;
   justify-content: center;
   transform: scaleX(-1);
-  width: 3.3125rem;
-  height: 3.3125rem;
+  width: 54px;
+  height: 54px;
   border: solid #BDBDBD;
   transition: background-color 0.2s, ease-in;
 }
@@ -191,8 +191,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.3125rem;
-  height: 3.3125rem;
+  width: 54px;
+  height: 54px;
   border: solid #BDBDBD;
   transition: background-color 0.2s, ease-in;
 }
@@ -209,7 +209,7 @@ body {
     justify-content: start;
     flex-wrap: nowrap;
     gap: 3%;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
   }
   .our-projects-sample__flex-container .our-projects-sample__flex-item {
     flex-direction: column;
@@ -243,13 +243,13 @@ body {
   .title {
     max-width: 265px;
     max-height: 128px;
-    font-size: 3rem;
+    font-size: 48px;
   }
   .our-projects-sample__flex-container {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 3%;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
   }
   .our-projects-sample__flex-container .our-projects-sample__flex-item {
     flex-direction: column;
@@ -257,7 +257,7 @@ body {
     text-align: center;
   }
   .our-projects-sample__flex-container .our-projects-sample__flex-item .flex-item__title {
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     font-size: 2rem;
     font-weight: 400;
   }
@@ -283,18 +283,18 @@ body {
 }
 @media (max-width: 424px) and (min-width: 320px) {
   .our-projects-sample__container {
-    padding: 1rem;
+    padding: 16px;
   }
   .title {
     max-width: 265px;
     max-height: 128px;
-    font-size: 3rem;
+    font-size: 48px;
   }
   .our-projects-sample__flex-container {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 3%;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
   }
   .our-projects-sample__flex-container .our-projects-sample__flex-item {
     flex-direction: column;
@@ -302,14 +302,14 @@ body {
     text-align: center;
   }
   .our-projects-sample__flex-container .our-projects-sample__flex-item .flex-item__title {
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     font-size: 2rem;
     font-weight: 400;
   }
   .our-projects-sample__flex-container .our-projects-sample__flex-item .flex-item__subtitle {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
   }
   .our-projects-sample__flex-container .our-projects-sample__flex-item .button-white {
     width: 300px;

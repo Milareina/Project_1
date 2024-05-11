@@ -8,7 +8,7 @@
     &__title {
         max-width: 277px;
         max-height: 128px;
-        margin-bottom: 1.875rem;
+        margin-bottom: calc((30 / 1170) * 100%);
         &--accent {
             @include accent-title(700, $accent-color); 
         }
@@ -17,7 +17,7 @@
 
 
 .our-projects-sample__design-line__img{
-    margin-bottom: 1.875rem;
+    margin-bottom: calc((30 / 1170) * 100%);
 }
 .container-for-gray-line{
     border-top: solid #f2f2f2;
@@ -28,7 +28,7 @@
     flex-wrap: wrap;
     gap: 60px;
     padding-top: 30px;
-    margin-bottom: 4.6875rem;
+    margin-bottom: calc((60 / 1170) * 100%);
 }
 .our-projects-sample__flex-item {
     display: flex;
@@ -43,7 +43,7 @@
     .flex-item__text {
         display: flex;
         flex-direction: column;
-        padding: 1.875rem;
+        padding: 30px;
     }
 
     .flex-item__title {
@@ -53,7 +53,7 @@
 
     .flex-item__subtitle {
         max-width: 400px;
-        margin-bottom: 4rem;
+        margin-bottom: 64px;
     
         font-family: $font-family;
         font-weight: 300;
@@ -70,13 +70,13 @@
         &__numbering {
             display: flex;
             align-self: center;
-            gap: 2rem;
+            gap: 32px;
             font-family: $font-family;
             font-weight: 400;
-            font-size: 24px;
+            font-size: 1.5rem;
             line-height: 100%;
             color: $title-color;
-            margin-right: 1.8125rem;
+            margin-right: calc((29 / 1170) * 100%);
     
             &--active{
                 color: $accent-color;
@@ -85,10 +85,10 @@
 
     &__arrows {
         display: flex;
-        gap: 1.4375rem;
+        gap: 23px;
 
         img{
-            width: 1.5rem;
+            width: 24px;
         }
     }
 
@@ -97,8 +97,8 @@
         align-items: center;
         justify-content: center;
         transform: scaleX(-1);
-        width: 3.3125rem;
-        height: 3.3125rem;
+        width: 54px;
+        height: 54px;
         border: solid $title-color;
         transition: background-color 0.2s, ease-in;
     
@@ -110,8 +110,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 3.3125rem;
-        height: 3.3125rem;
+        width: 54px;
+        height: 54px;
         border: solid $title-color;
         transition: background-color 0.2s, ease-in;
     
@@ -135,8 +135,8 @@
         flex-direction: row;
         justify-content: start;
         flex-wrap: nowrap;
-        gap: calc(3%);
-        margin-bottom: 3rem;
+        gap: 3%;
+        margin-bottom: 48px;
 
         .our-projects-sample__flex-item{
             flex-direction: column;
@@ -181,21 +181,21 @@
     .title {
         max-width: 265px;
         max-height: 128px;
-        font-size: 3rem;
+        font-size: 48px;
     }
 
     .our-projects-sample__flex-container {
         flex-direction: column;
         flex-wrap: nowrap;
-        gap: calc(3%);
-        margin-bottom: 3rem;
+        gap: 3%;
+        margin-bottom: 48px;
 
         .our-projects-sample__flex-item{
             flex-direction: column;
             justify-content: space-between;
             text-align: center;
             .flex-item__title {
-                margin-bottom: 2rem;
+                margin-bottom: 32px;
                 font-size: 2rem;
                 font-weight: 400;
             }
@@ -228,28 +228,28 @@
 //Для смартфонов
 @media (max-width: 424px) and (min-width: 320px) {
     .our-projects-sample__container {
-        padding: 1rem; 
+        padding: 16px; 
         
     }
 
     .title {
         max-width: 265px;
         max-height: 128px;
-        font-size: 3rem;
+        font-size: 48px;
     }
 
     .our-projects-sample__flex-container {
         flex-direction: column;
         flex-wrap: nowrap;
-        gap: calc(3%);
-        margin-bottom: 3rem;
+        gap: 3%;
+        margin-bottom: 48px;
 
         .our-projects-sample__flex-item{
             flex-direction: column;
             justify-content: space-between;
             text-align: center;
             .flex-item__title {
-                margin-bottom: 2rem;
+                margin-bottom: 32px;
                 font-size: 2rem;
                 font-weight: 400;
             }
@@ -257,7 +257,7 @@
             .flex-item__subtitle{
                 margin-left: auto;
                 margin-right: auto;
-                margin-bottom: 2rem;
+                margin-bottom: 32px;
             }
 
             .button-white {

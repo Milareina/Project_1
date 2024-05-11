@@ -46,7 +46,7 @@
     width: 233px;
     height: 160;
     z-index: 2; 
-    color: #fff; 
+    color: $white-color; 
 
     .our-projects__overlay-title {
         margin-bottom: 8px;
@@ -54,7 +54,7 @@
         font-weight: 700;
         font-size: 4rem;
         line-height: 100%;
-        color: #fff;
+        color:$white-color;
     }
 }
 
@@ -77,14 +77,14 @@
 
     // Отступы
     .our-projects__container{
-        padding: 1.875rem; 
+        padding: 30px; 
     }
 
     //Настройка контейнера как грид 
     .our-projects__flex-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
-        gap: 1.875rem; 
+        gap: 30px; 
     }
 
     // Настройка элементов для каждой позиции 
@@ -117,7 +117,7 @@
 
     //Текст внутри элементов
     .our-projects__overlay .our-projects__overlay-title {
-        margin-bottom: 1rem;
+        margin-bottom: 16px;
         font-size: 6rem; 
     }
 }
@@ -132,14 +132,14 @@
     
         // Отступы
         .our-projects__container{
-            padding: 1rem; 
+            padding: 16px; 
         }
     
         //Настройка контейнера как грид 
         .our-projects__flex-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr); 
-            gap: 1rem; 
+            gap: 16px; 
         }
     
         // Настройка элементов для каждой позиции 
@@ -178,7 +178,7 @@
         }
         //Текст внутри элементов
         .our-projects__overlay .our-projects__overlay-title {
-            margin-bottom: 1rem;
+            margin-bottom: 16px;
             font-size: 3rem; 
         }
 }
@@ -193,14 +193,14 @@
 
     // Отступы
     .our-projects__container{
-        padding: 1rem; 
+        padding: 16px; 
     }
 
     //Настройка контейнера как грид 
     .our-projects__flex-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
-        gap: 1rem; 
+        gap: 16px; 
     }
 
     // Настройка элементов для каждой позиции 
@@ -240,7 +240,7 @@
 
     //Текст внутри элементов
     .our-projects__overlay .our-projects__overlay-title {
-        margin-bottom: 1rem;
+        margin-bottom: 16px;
         font-size: 2rem; 
         font-weight: 500;
         
