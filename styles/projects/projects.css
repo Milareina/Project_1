@@ -199,6 +199,10 @@ body {
 .our-projects-sample__pagination .pagination__arrow:hover {
   background-color: #fbfbfb;
 }
+.our-projects-sample__pagination .numbering__slash-img {
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 1200px) and (min-width: 769px) {
   .our-projects-sample__container {
