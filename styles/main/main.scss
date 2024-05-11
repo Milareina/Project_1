@@ -4,11 +4,11 @@
 
 //Bloks//
 //Главная main
-@import "./blocks/header";
+@import "./blocks/header/header.scss";
 @import"./blocks/header_content";
-@import"./blocks/contact_us";
-@import"./blocks/footer";
 @import"./blocks/our_projects";
+@import"./blocks/contact_us";
+@import"./blocks/footer/footer.scss";
 
 
 
