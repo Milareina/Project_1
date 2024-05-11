@@ -87,6 +87,9 @@ body {
   background-color: #BDBDBD;
 }
 
+.our-projects-sample {
+  margin-bottom: 120px;
+}
 .our-projects-sample__title {
   max-width: 277px;
   max-height: 128px;
@@ -121,15 +124,15 @@ body {
   display: flex;
   background-color: #fbfbfb;
 }
-.our-projects-sample__flex-item__img img {
+.our-projects-sample__flex-item .flex-item__img img {
   width: 100%;
 }
-.our-projects-sample__flex-item__text {
+.our-projects-sample__flex-item .flex-item__text {
   display: flex;
   flex-direction: column;
   padding: 1.875rem;
 }
-.our-projects-sample__flex-item__title {
+.our-projects-sample__flex-item .flex-item__title {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 2.5rem;
@@ -137,7 +140,7 @@ body {
   color: #bdbdbd;
   margin-bottom: 73px;
 }
-.our-projects-sample__flex-item__subtitle {
+.our-projects-sample__flex-item .flex-item__subtitle {
   max-width: 400px;
   margin-bottom: 4rem;
   font-family: "Roboto", sans-serif;
@@ -150,7 +153,7 @@ body {
 .our-projects-sample__pagination {
   display: flex;
 }
-.our-projects-sample__pagination__numbering {
+.our-projects-sample__pagination .pagination__numbering {
   display: flex;
   align-self: center;
   gap: 2rem;
@@ -161,18 +164,17 @@ body {
   color: #BDBDBD;
   margin-right: 1.8125rem;
 }
-.our-projects-sample__pagination__numbering--active {
+.our-projects-sample__pagination .pagination__numbering--active {
   color: #333333;
 }
-.our-projects-sample__pagination__arrows {
+.our-projects-sample__pagination .pagination__arrows {
   display: flex;
   gap: 1.4375rem;
 }
-.our-projects-sample__pagination__arrows img {
+.our-projects-sample__pagination .pagination__arrows img {
   width: 1.5rem;
 }
-
-.our-projects-sample__pagination__arrow--inverted {
+.our-projects-sample__pagination .pagination__arrow--inverted {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,11 +184,10 @@ body {
   border: solid #BDBDBD;
   transition: background-color 0.2s, ease-in;
 }
-.our-projects-sample__pagination__arrow--inverted:hover {
+.our-projects-sample__pagination .pagination__arrow--inverted:hover {
   background-color: #fbfbfb;
 }
-
-.our-projects-sample__pagination__arrow {
+.our-projects-sample__pagination .pagination__arrow {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -195,7 +196,7 @@ body {
   border: solid #BDBDBD;
   transition: background-color 0.2s, ease-in;
 }
-.our-projects-sample__pagination__arrow:hover {
+.our-projects-sample__pagination .pagination__arrow:hover {
   background-color: #fbfbfb;
 }
 
@@ -215,7 +216,7 @@ body {
     justify-content: space-between;
     text-align: center;
   }
-  .our-projects-sample__flex-container .our-projects-sample__flex-item .our-projects-sample__flex-item__title {
+  .our-projects-sample__flex-container .our-projects-sample__flex-item .flex-item__title {
     font-size: 2rem;
   }
   .our-projects-sample__pagination {
@@ -255,12 +256,12 @@ body {
     justify-content: space-between;
     text-align: center;
   }
-  .our-projects-sample__flex-container .our-projects-sample__flex-item .our-projects-sample__flex-item__title {
+  .our-projects-sample__flex-container .our-projects-sample__flex-item .flex-item__title {
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 400;
   }
-  .our-projects-sample__flex-container .our-projects-sample__flex-item__subtitle {
+  .our-projects-sample__flex-container .our-projects-sample__flex-item .flex-item__subtitle {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
@@ -300,12 +301,12 @@ body {
     justify-content: space-between;
     text-align: center;
   }
-  .our-projects-sample__flex-container .our-projects-sample__flex-item .our-projects-sample__flex-item__title {
+  .our-projects-sample__flex-container .our-projects-sample__flex-item .flex-item__title {
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 400;
   }
-  .our-projects-sample__flex-container .our-projects-sample__flex-item__subtitle {
+  .our-projects-sample__flex-container .our-projects-sample__flex-item .flex-item__subtitle {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;

@@ -2,14 +2,19 @@
 @import "../vars";
 
 //Стили для блоков
-.our-projects-sample__title {
-    max-width: 277px;
-    max-height: 128px;
-    margin-bottom: 1.875rem;
-    &--accent {
-        @include accent-title(700, $accent-color); 
+.our-projects-sample{
+    margin-bottom: 120px;
+
+    &__title {
+        max-width: 277px;
+        max-height: 128px;
+        margin-bottom: 1.875rem;
+        &--accent {
+            @include accent-title(700, $accent-color); 
+        }
     }
 }
+
 
 .our-projects-sample__design-line__img{
     margin-bottom: 1.875rem;
@@ -29,24 +34,24 @@
     display: flex;
     background-color: $background-color;
 
-    &__img {
+    .flex-item__img {
         img{
             width:100%;
         }
     }
 
-    &__text {
+    .flex-item__text {
         display: flex;
         flex-direction: column;
         padding: 1.875rem;
     }
 
-    &__title {
+    .flex-item__title {
         @include title-style(300, 2.5rem, 1, #bdbdbd);
         margin-bottom: 73px;
     }
 
-    &__subtitle {
+    .flex-item__subtitle {
         max-width: 400px;
         margin-bottom: 4rem;
     
@@ -61,20 +66,21 @@
 .our-projects-sample__pagination {
     display: flex;
 
-    &__numbering {
-        display: flex;
-        align-self: center;
-        gap: 2rem;
-        font-family: $font-family;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 100%;
-        color: $title-color;
-        margin-right: 1.8125rem;
-
-        &--active{
-            color: $accent-color;
-        }
+    .pagination{
+        &__numbering {
+            display: flex;
+            align-self: center;
+            gap: 2rem;
+            font-family: $font-family;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 100%;
+            color: $title-color;
+            margin-right: 1.8125rem;
+    
+            &--active{
+                color: $accent-color;
+            }
     }
 
     &__arrows {
@@ -85,35 +91,37 @@
             width: 1.5rem;
         }
     }
-}
 
-.our-projects-sample__pagination__arrow--inverted {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: scaleX(-1);
-    width: 3.3125rem;
-    height: 3.3125rem;
-    border: solid $title-color;
-    transition: background-color 0.2s, ease-in;
-
-    &:hover {
-        background-color: $background-color;
+    &__arrow--inverted{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: scaleX(-1);
+        width: 3.3125rem;
+        height: 3.3125rem;
+        border: solid $title-color;
+        transition: background-color 0.2s, ease-in;
+    
+        &:hover {
+            background-color: $background-color;
+        }
+    }
+    &__arrow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3.3125rem;
+        height: 3.3125rem;
+        border: solid $title-color;
+        transition: background-color 0.2s, ease-in;
+    
+        &:hover {
+            background-color: $background-color;
+        }
     }
 }
-.our-projects-sample__pagination__arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 3.3125rem;
-    height: 3.3125rem;
-    border: solid $title-color;
-    transition: background-color 0.2s, ease-in;
-
-    &:hover {
-        background-color: $background-color;
-    }
 }
+
 
 //Медиазапросы
 
@@ -134,7 +142,7 @@
             flex-direction: column;
             justify-content: space-between;
             text-align: center;
-            .our-projects-sample__flex-item__title {
+            .flex-item__title {
                 font-size: 2rem;
             }
         }
@@ -186,13 +194,13 @@
             flex-direction: column;
             justify-content: space-between;
             text-align: center;
-            .our-projects-sample__flex-item__title {
+            .flex-item__title {
                 margin-bottom: 2rem;
                 font-size: 2rem;
                 font-weight: 400;
             }
 
-            &__subtitle{
+            .flex-item__subtitle{
                 margin-left: auto;
                 margin-right: auto;
                 margin-bottom: 2rem;
@@ -240,13 +248,13 @@
             flex-direction: column;
             justify-content: space-between;
             text-align: center;
-            .our-projects-sample__flex-item__title {
+            .flex-item__title {
                 margin-bottom: 2rem;
                 font-size: 2rem;
                 font-weight: 400;
             }
 
-            &__subtitle{
+            .flex-item__subtitle{
                 margin-left: auto;
                 margin-right: auto;
                 margin-bottom: 2rem;
