@@ -28,7 +28,7 @@
     padding-top: 24px;
     grid-column: 1/5;
 }
-.contacts a {
+.contacts a:not(.button) {
     padding-right: 8px;
 }
 .social-media a {

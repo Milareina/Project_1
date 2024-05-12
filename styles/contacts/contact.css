@@ -158,6 +158,10 @@ header .burger {
   column-gap: 8%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .contacts__container .contacts__leftside {
   padding-top: 52px;
 }

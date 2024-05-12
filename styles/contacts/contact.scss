@@ -148,7 +148,10 @@ header .burger {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   -moz-column-gap: 8%;
-       column-gap: 8%;
+  column-gap: 8%;
+}
+a{
+  text-decoration: none;
 }
 .contacts__container .contacts__leftside {
   padding-top: 52px;

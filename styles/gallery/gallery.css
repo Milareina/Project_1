@@ -92,27 +92,6 @@ body {
   margin-right: 135px;
 }
 
-.photo-gallery__title {
-  max-width: 277px;
-  max-height: 128px;
-  margin-bottom: 2.5641025641%;
-}
-.photo-gallery__title--accent {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 100%;
-  color: #333333;
-}
-
-.photo-gallery__design-line__img {
-  margin-bottom: 2.5641025641%;
-}
-
-.container-for-gray-line {
-  border-top: solid #f2f2f2;
-}
-
 .heading {
   width: 277.76px;
   height: 128px;
@@ -123,81 +102,15 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   grid-gap: 30px;
-  margin-top: 30px;
 }
 
 .wrapper_img img {
-  width: 100%;
-  height: auto;
+  width: 210px;
+  height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.photo-gallery__pagination {
-  display: flex;
-  margin-top: 71px;
-  margin-bottom: 110px;
-}
-
-.photo-gallery__pagination .pagination__numbering {
-  display: flex;
-  align-self: center;
-  gap: 32px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 100%;
-  color: #BDBDBD;
-  margin-right: 2.4786324786%;
-}
-
-.photo-gallery__pagination .pagination__numbering--active {
-  color: #333333;
-}
-
-.photo-gallery__pagination .pagination__arrows {
-  display: flex;
-  gap: 23px;
-}
-
-.photo-gallery__pagination .pagination__arrows img {
-  width: 24px;
-}
-
-.photo-gallery__pagination .pagination__arrow--inverted {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: scaleX(-1);
-  width: 54px;
-  height: 54px;
-  border: solid #BDBDBD;
-  transition: background-color 0.2s, ease-in;
-}
-
-.photo-gallery__pagination .pagination__arrow--inverted:hover {
-  background-color: #fbfbfb;
-}
-
-.photo-gallery__pagination .pagination__arrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 54px;
-  border: solid #BDBDBD;
-  transition: background-color 0.2s, ease-in;
-}
-
-.photo-gallery__pagination .pagination__arrow:hover {
-  background-color: #fbfbfb;
-}
-
-.photo-gallery__pagination .numbering__slash-img {
-  display: flex;
-  justify-content: center;
 }
 
 @media screen and (max-width: 1200px) {
