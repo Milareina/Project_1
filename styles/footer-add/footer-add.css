@@ -4,8 +4,7 @@
   height: 417px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 2fr, 1fr, 2fr;
-  gap: auto;
+  grid-template-rows: 2fr, 1fr;
   font-family: "roboto";
   color: #FFFFFF;
   font-size: 14px;
@@ -27,23 +26,11 @@
   margin-bottom: 32px;
 }
 
-.footer-line {
-  border: 1px;
-  border-top: solid #FFFFFF;
-  max-width: 100%;
-  margin-bottom: 70px;
-  grid-column: 1/5;
-  opacity: 10%;
-}
-
 .copy {
   color: rgba(200, 200, 200, 0.5019607843);
-  display: grid;
   text-align: center;
   padding-top: 24px;
   grid-column: 1/5;
-  margin-bottom: 24px;
-  align-self: center;
 }
 
 .contacts a {
@@ -63,19 +50,3 @@ h3 {
 p {
   padding-top: 16px;
 }/*# sourceMappingURL=footer-add.css.map */
-.nav_footer {
-  margin-top: 58px;
-  margin-left: 99px;
-}
-.contacts {
-  margin-top: 58px;
-}
-.social-media {
-  margin-top: 58px;
-}
-
-@media (max-width: 1200px) {
-  .footer {
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  }
-}
