@@ -144,3 +144,34 @@
                         }
                     }
 }
+@media screen and (max-width: 1160px){
+    .project-lorum {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 350px; 
+        padding: 30px;   
+    }
+    .project__right{
+        margin-top: 70px;
+    }
+    .main__content{
+        display: flex;
+        flex-direction: column;
+    }
+    .main__blok2{
+        margin-right: 170px;
+    }
+    }
+    @media screen and (max-width: 1024px){
+        .main__blok2{
+            margin-right: 250px;
+        }
+    }
+    @media screen and (max-width: 725px){
+        .project-lorum {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 350px; 
+            padding: 30px;   
+        }
+    }
