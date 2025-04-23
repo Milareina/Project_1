@@ -8,6 +8,9 @@
 
 Это учебный проект, созданный для изучения HTML и CSS. Проект представляет собой многостраничный веб-сайт с адаптивным дизайном.
 
+🔗Ссылка на видеоописание: https://github.com/Milareina/Project_1/blob/master/assets/demo_project.mp4
+---
+
 ## 👥Команда разработчиков
 Team Lead, Frontend разработчик </br>
 [![GitHub](https://img.shields.io/badge/GitHub-Milareina-181717?style=for-the-badge&logo=github)](https://github.com/Milareina) 
@@ -73,6 +76,9 @@ git clone https://github.com/Milareina/Project_1.git
 # 📘  Training Project "Digital Project"
 
 This is a training project created to study HTML and CSS. It represents a multi-page website with a responsive layout.
+
+🔗Video description link: https://github.com/Milareina/Project_1/blob/master/assets/demo_project.mp4
+---
 
 ## 👥 Development Team
 
