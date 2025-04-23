@@ -8,7 +8,8 @@
 
 Это учебный проект, созданный для изучения HTML и CSS. Проект представляет собой многостраничный веб-сайт с адаптивным дизайном.
 
-🔗Ссылка на видеоописание: [https://github.com/Milareina/Project_1/blob/master/assets/demo_project.mp4](https://github.com/Milareina/Project_1/blob/master/assets/demo_project.mp4)
+🔗Ссылка на видеоописание:  [Watch video demo](https://github.com/Milareina/Project_1/raw/main/assets/demo_project.mp4)
+
 ---
 
 ## 👥Команда разработчиков
@@ -77,7 +78,7 @@ git clone https://github.com/Milareina/Project_1.git
 
 This is a training project created to study HTML and CSS. It represents a multi-page website with a responsive layout.
 
-🔗Video description link: https://github.com/Milareina/Project_1/blob/master/assets/demo_project.mp4
+🔗Video description link:  [Watch video demo](https://github.com/Milareina/Project_1/raw/main/assets/demo_project.mp4)
 ---
 
 ## 👥 Development Team
