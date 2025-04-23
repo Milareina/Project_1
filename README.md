@@ -11,6 +11,7 @@
 🔗Ссылка на видео-обзор:  [Download demo video (MP4)](https://github.com/Milareina/Project_1/raw/master/assets/demo_project.mp4)
 
 Видео будет загружено автоматически из-за ограничений GitHub.
+
 ---
 
 ## 👥Команда разработчиков
@@ -80,7 +81,9 @@ git clone https://github.com/Milareina/Project_1.git
 This is a training project created to study HTML and CSS. It represents a multi-page website with a responsive layout.
 
 🔗Video link:  [Download demo video (MP4)](https://github.com/Milareina/Project_1/raw/master/assets/demo_project.mp4)
+
 The video will download automatically due to GitHub limitations.
+
 ---
 
 ## 👥 Development Team
